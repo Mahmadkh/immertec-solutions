@@ -1,0 +1,321 @@
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    row-gap: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
+        /* max-width: 49%; */
+
+
+
+
+}
+
+.firstHalf{
+    width: 67%;
+   
+}
+.firstHalf > img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px ;
+    background: #F6F7FB;}
+
+.secondHalf{
+    width: 33%;
+    display: flex;
+}
+.content{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    font-family: 'Gilroy';
+    font-style: normal;
+    padding: 40px 50px 30px 30px;
+    text-align: start;
+}
+
+.vrExp{
+    display: flex;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.stepIn{
+    display: flex;
+    font-weight: 500;
+    font-size: 32px;
+
+
+
+}
+.flagS{
+    display: flex;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 18px;
+
+
+}
+
+.findOut{
+    display: flex;
+    border: 1px solid #64DDB9;
+    background-color: #64DDB9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    padding: 0.3rem 1.2rem;
+    font-size: 1rem;
+
+}
+
+.eastIcon{
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+   padding-left: 2px;
+    background-color: black;
+   margin-left: 10px;
+
+
+}
+
+/* 
+.card:nth-child(even) .firstHalf {
+  order: 2; 
+}
+
+.card:nth-child(even) .secondHalf {
+  order: 1; 
+} */
+
+
+/* @media (max-width: 900px) {
+    .content{
+        font-size: 190%;
+
+    }
+    .vrExp{
+        font-size: 70%;
+    
+    }
+
+  
+    .stepIn{
+        font-size: 70%;
+    
+    }
+  
+  
+    .flagS{
+        font-size: 70%;
+    
+    }
+  
+  
+    .findOut{
+        font-size: 70%;
+
+    }
+  
+    .eastIcon{
+        width: 20%;
+    
+    }
+
+} */
+
+
+/* 2nd card */
+.crd{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid transparent;
+    border-radius: 20px;  
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
+
+}
+
+.fistHalf{
+    width: 67%;
+   
+}
+.fistHalf > img{display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px ;
+   
+}
+
+.secndHalf{
+    
+    width: 33%;
+    display: flex;
+    background: #3B6CB3;
+    border-radius: 20px 0px 0px 20px ;
+
+}
+.cntent{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    font-family: 'Gilroy';
+    font-style: normal;
+    padding: 40px 50px 30px 30px;
+    text-align: start;
+}
+.fndOut{
+    display: flex;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    padding: 0.3rem 1.2rem;
+    font-size: 1rem;
+
+}
+
+/* 3rd card */
+
+.cad{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid transparent;
+    border-radius: 20px;  
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
+}
+.frstHalf{
+    width: 67%;
+
+}
+.frstHalf > img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px ;
+}
+
+.secodHalf{
+    width: 33%;
+    display: flex;
+    border-radius: 0px 20px 20px 0px ;
+    background: #F6F7FB;
+
+
+}
+.cotent{
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    font-family: 'Gilroy';
+    font-style: normal;
+    padding: 40px 50px 30px 30px;
+    text-align: start;
+}
+.findOut{
+    display: flex;
+    border: 1px solid #64DDB9;
+    background-color: #64DDB9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    padding: 0.3rem 1.2rem;
+    font-size: 1rem;
+
+}
+
+/* 4th card */
+
+
+.car{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid transparent;
+    border-radius: 20px;  
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3);
+    max-width: 940px;
+
+}
+
+.fistHaf{
+    width: 67%;
+
+}
+
+.fistHaf > img{display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px ;
+    background: #1e2b34;
+
+}
+
+.secndHaf{
+    
+    width: 33%;
+    display: flex;
+    background: #21303D;
+    border-radius: 20px 0px 0px 20px ;
+
+}
+.conten{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    font-family: 'Gilroy';
+    font-style: normal;
+    padding: 40px 50px 30px 30px;
+    text-align: start;
+}
+
+
+
+.vExp{
+    display: flex;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #64DDB9;
+}

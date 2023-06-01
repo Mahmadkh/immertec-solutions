@@ -1,0 +1,78 @@
+.instructors{
+    padding: 70px 0px 170px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
+}
+
+.meet{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+
+}
+
+.instructorGrid{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.docOne{
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-style: normal;
+}
+/* .docOne > img::before{
+   
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(105.5deg, #243746 21.76%, rgba(36, 55, 70, 0) 64.19%);
+} */
+
+.heart{
+    position: absolute;
+    background: #47D7AC;
+    border: 1px solid #47D7AC;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    top: 30px;
+    left: 30px;
+    
+
+}
+.heart > img{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.jihad{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    font-weight: 700;
+    font-size: 31.9004px;
+    text-align: left;
+}
+.endo{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-weight: 400;
+    font-size: 22.0198px;
+
+}

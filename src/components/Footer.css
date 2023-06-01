@@ -1,0 +1,57 @@
+.foot{
+    
+}
+
+.foo{
+    display: flex;
+    flex-direction: row;
+    background: #142232;
+    font-family: 'Gilroy';
+    font-style: normal;
+    position: relative;
+    width: 100%;
+    column-gap: 10px;
+    padding: 40px 200px 40px 200px;
+    
+
+}
+.fot{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.footNote{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+    
+
+}
+.footNot{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 19px;
+    
+
+}
+.footImg{
+    width: 50%;
+    
+}
+
+.findFoot{
+    display: flex;
+    border: 1px solid #64DDB9;
+    background-color: #64DDB9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    padding: 0.3rem 1.2rem;
+    font-size: 1rem;
+    
+
+}

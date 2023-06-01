@@ -1,0 +1,24 @@
+.immersive{
+    position: relative;
+
+}
+
+
+
+
+
+
+
+.immersiveText{
+    
+    position: absolute;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+color: #FFFFFF;
+top: 40%;
+bottom: 40%;
+left: 20%;
+right: 20%;
+}

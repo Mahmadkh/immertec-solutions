@@ -1,0 +1,149 @@
+.fooot{
+    background: #142232;
+    display:flex ;
+    justify-content: center;
+
+
+    
+    
+
+}
+
+.body{
+    max-width: 940px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gilroy';
+    font-style: normal;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    column-gap: 70px;
+
+}
+.immer{
+    
+    display: flex;
+    flex-direction: column;
+    background: #142232;
+
+}
+
+.logO{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+.rtec{
+    padding-left: 5px;
+}
+
+.follow{
+    padding-top: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 40px;
+
+}
+
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    background: #142232;
+    margin-top: 10px;
+
+}
+
+.copyRight{
+    color: #BDC2C7;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center; 
+    padding-top: 130px;
+   
+
+}
+.cicon{
+    padding-right: 10px;
+
+}
+
+.platform{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.plat{
+    font-weight: 700;
+    margin-top: 18px;
+
+}
+.product{
+    margin-top: 30px;
+    font-weight: 500;
+
+}
+.science{
+    margin-top: 20px;
+}
+
+.company{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+
+
+}
+
+.comp{
+    font-weight: 700;
+    margin-top: 18px;
+    
+}
+.medical{
+    margin-top: 30px;
+}
+
+.more{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+.mor{
+    font-weight: 700;
+    margin-top: 18px;
+}
+.terms{
+    margin-top: 30px;
+
+}
+
+.privacy{
+    margin-top: 30px;
+
+}
+.healthCare{
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 18px;
+
+
+}
