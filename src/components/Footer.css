@@ -1,17 +1,25 @@
 .foot{
-    
+    max-width: 100%;
+    background: #142232;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+
+
 }
 
 .foo{
     display: flex;
+    justify-content: center;
     flex-direction: row;
     background: #142232;
     font-family: 'Gilroy';
     font-style: normal;
-    position: relative;
     width: 100%;
     column-gap: 10px;
-    padding: 40px 200px 40px 200px;
+    max-width: 940px;
+
+
     
 
 }
@@ -19,12 +27,18 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    row-gap: 28px;
+    /* align-items: center; */
+    /* text-align: start; */
+    margin-top: -10px;
+
 }
 .footNote{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 50px;
-    
+    display: flex;
+ 
 
 }
 .footNot{
@@ -36,6 +50,7 @@
 }
 .footImg{
     width: 50%;
+    max-height: 100%;
     
 }
 
@@ -46,7 +61,6 @@
     border-radius: 20px;
     align-items: center;
     justify-content: center;
-    padding-left: 12px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;

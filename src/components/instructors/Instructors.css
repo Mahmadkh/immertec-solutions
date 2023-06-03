@@ -31,15 +31,40 @@
     color: #FFFFFF;
     font-family: 'Gilroy';
     font-style: normal;
+ 
 }
-/* .docOne > img::before{
-   
+.docOne::before {
+  
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(105.5deg, #243746 11.75%, rgba(36, 55, 70, 0) 54.19%);
+  transform: matrix(-1, 0, 0, -1, -1, 0);
+  background-blend-mode: overlay;
+  z-index: 1;
+    border-radius: 8.50679px;
+
+}
+
+
+ 
+
+
+/* .inst {
+  width: 100%;
+  height: auto;
+}
+.gradient-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-image: linear-gradient(105.5deg, #243746 21.76%, rgba(36, 55, 70, 0) 64.19%);
+  background-blend-mode: overlay;
 } */
 
 .heart{

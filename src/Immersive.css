@@ -1,9 +1,14 @@
 .immersive{
     position: relative;
+    
 
 }
 
-
+/* .VRpic{
+   position: absolute
+    background: linear-gradient(244.07deg, #243746 33.78%, rgba(36, 55, 70, 0) 68.55%, #243746 89.23%);
+mix-blend-mode: multiply;
+} */
 
 
 
@@ -21,4 +26,5 @@ top: 40%;
 bottom: 40%;
 left: 20%;
 right: 20%;
+
 }

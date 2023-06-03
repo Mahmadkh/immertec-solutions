@@ -16,7 +16,7 @@ function Instructors() {
                       Craig Walker, MD, FACC, FACA, FACP, FSCAI, FASCI, FCCP, FICA
                   </div>
                   <div className='endo'>Endovascular</div>
-                  <img src='inst1.png' alt='' class="instOne"/>
+                  <img src='inst1.png' alt='' />
               </div>
               
               <div className='docOne'>

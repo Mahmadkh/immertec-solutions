@@ -8,7 +8,9 @@ function Immersive() {
         Immersive
 Training & Awareness Platform
       </div>
-          <img src='5.png' alt=''/>
+      <div className='VRpic'>
+        <img src='5.png' alt=''/>
+          </div>
       
     </div>
   )
