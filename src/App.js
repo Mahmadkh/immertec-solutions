@@ -1,34 +1,45 @@
-import './App.css';
-import Cards from './components/cards/Cards';
-import Blue from './components/blue/Blue';
-import Immersive from './Immersive';
-import Instructors from './components/instructors/Instructors';
-import Footer from './components/Footer';
-import Foot from './components/foot/Foot';
-import Header from './components/header/Header';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from "react";
+import Home from "./Home";
+import { BrowserRouter as Router, useRoutes } from "react-router-dom";
+import Solutions from "./components/Solutions/Solutions";
+import Contact from "./Contact";
 
-
-
-function App() {
-  
+const App = () => {
+  let routes = useRoutes([
+    { path: "/", element: <Home /> },
+    { path: "/Solutions", element: <Solutions /> },
+    { path: "/Contact", element: <Contact /> },
+  ]);
+  return routes;
+};
+const AppWrapper = () => {
   return (
-    <div className="App">
-      < Header />
-      < Cards />
-      < Blue />
-      < Immersive />
-      < Instructors />
-      < Footer />
-      < Foot />
-
-    </div>
+    <Router>
+      <App />
+    </Router>
   );
-}
+};
 
-export default App;
+export default AppWrapper;
 
+// import './App.css';
+// import Cards from './components/cards/Cards';
+// import Blue from './components/blue/Blue';
+// import Immersive from './Immersive';
+// import Instructors from './components/instructors/Instructors';
+// import Footer from './components/Footer';
+// import Foot from './components/foot/Foot';
+// import Header from './components/header/Header';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+// function App() {
+
+//   return (
+
+//   );
+// }
+
+// export default App;
 
 // import './App.css';
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';

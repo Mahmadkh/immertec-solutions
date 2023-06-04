@@ -43,13 +43,13 @@ function Cards() {
                   <div className='cntent'>
                       <div className='vrExp'>Immersive 2D Viewer</div>
 
-                      <div className='stepIn'>
+                      <div className='viewing'>
                           Viewing experience tailor made for healthcare
 
                       </div>
 
-                      <div className='flagS'>
-                          Our Immersive 2D Viewer was created to ensure viewers won't miss anything important
+                      <div className='ourImmer'>
+                          Our Immersive 2D Viewer gives was created to ensure viewers won't miss anything important
                       </div>
 
                       <div className='findOutMore'>
@@ -69,19 +69,19 @@ function Cards() {
               </div>
               <div className='secodHalf'>
                   <div className='cotent'>
-                      <div className='vrExp'>Recording History</div>
+                      <div className='vrExp'>Recording Library</div>
 
-                      <div className='stepIn'>
+                      <div className='stepInWatch'>
                           Watch recordings on-demand
 
                       </div>
 
-                      <div className='flagS'>
+                      <div className='recordStore'>
                           Record, store and replay surgical procedures on-demand in VR or Immersive 2D with our platform, ensuring optimal viewing experiances.
                       </div>
 
                       <div className='findOutMore'>
-                          <button className='findOut'>
+                          <button className='findOutmore'>
                               Find out More
                               <EastIcon className='eastIcon' />
                           </button>
@@ -97,19 +97,19 @@ function Cards() {
               </div>
               <div className='secndHaf'>
                   <div className='conten'>
-                      <div className='vExp'>Data Analytics</div>
+                      <div className='vExpData'>Data Analytics</div>
 
-                      <div className='stepIn'>
+                      <div className='stepInLorem'>
                           Lorem ipsum about Data Analytics like the top two
 
                       </div>
 
-                      <div className='flagS'>
-                          Experiance personalized sugical viewing with a 180* panoramic OR perspective and the ability to access upto 4 medical feeds, presentations, or intricate camera angles concurrently.
+                      <div className='experiance'>
+                      Experience personalized surgical viewing with a 180° panoramic OR perspective and the ability to access up to 4 medical feeds, presentations, or intricate camera angles concurrently.
                       </div>
 
                       <div className='findOutMore'>
-                          <button className='findOut'>
+                          <button className='findOutLast'>
                               Find out More
                               <EastIcon className='eastIcon' />
                           </button>
